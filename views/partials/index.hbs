@@ -1,0 +1,20 @@
+<H3>{{viewTitle}}</H3>
+<div class="jumbotron">
+  <form class="form-horizontal" method="POST" action="/ticket">
+    <div class="form-group">
+      <label class="col-sm-4 control-label" for="showSelect">Shows Available</label>
+      <div class="col-sm-8">
+        <select class="custom-select form-control" name="showSelect">
+          {{#each s}}
+            <option name= {{this.name}} > {{this.name}} </option>
+          {{/each}}
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-8">
+        <button type="submit" class="btn btn-default">Check the Available seats</button>
+      </div>
+    </div>
+  </form>
+</div>
