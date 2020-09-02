@@ -1,4 +1,5 @@
 # Movie-Ticket-Reservation
+Movie Ticket Reservation built using NodeJs, ExpressJs, HandlebarsJs with MongoDB database.
 
 Ensure that node.js and MongoDb (port: 27017) is installed and running on your computer.
 
